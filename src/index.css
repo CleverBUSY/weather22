@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  border: 1px solid green;
+}
+.logo-text {
+  text-align: center;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 50px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(76, 184, 196, 1) 0%,
+    rgba(60, 211, 173, 1) 100%
+  );
+}
+.input {
+  width: 460px;
+  height: 54px;
+  border-radius: 6px;
+  padding: 8px 22px;
+  border: none;
+  outline: none;
+}
+.btn {
+  margin-left: -130px;
+  width: 145px;
+  border: none;
+  height: 54px;
+  border-radius: 6px;
+  background-color: #ed3052;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: white;
+  padding-bottom: 3px;
+}
+.input-center {
+  text-align: center;
+}
+.input::placeholder {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  color: black;
+  font-weight: 10px;
+}
+.nameCity {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33px;
+  display: flex;
+  align-items: start;
+  gap: 10px;
+  margin-top: 30px;
+}
+.kg {
+  padding: 3px 5px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  background-color: #ed3052;
+  color: #fff;
+}
+.section {
+    position: relative;
+}
+.weather-card {
+  padding-left: 30px;
+  width: 360px;
+  position: absolute;
+  right: 40%;
+  top: 50px;
+  height: 320px;
+  border-radius: 9px;
+  box-shadow: 0px 5px 20px 0px #1B6C7240;
+}
+.temp-city {
+  font-size: 92px;
+  font-weight: 400;
+  line-height: 92px;
+}
+.weather {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.veterText {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.vlajnostText {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.flex-img {
+    display: flex;
+    justify-content: space-around;
+}
